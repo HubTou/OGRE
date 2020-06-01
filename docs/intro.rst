@@ -111,6 +111,6 @@ Server parts of these games.
 .. _Steam: https://store.steampowered.com/about/
 .. _Lutris: https://lutris.net/about/
 .. _`social login`: https://en.wikipedia.org/wiki/Social_login
-.. _`perfect information games`: https://en.wikipedia.org/wiki/Perfect_information
+.. _`perfect information game`: https://en.wikipedia.org/wiki/Perfect_information
 .. _Matchmaking: https://en.wikipedia.org/wiki/Matchmaking_(video_games)
 .. _ranking: https://en.wikipedia.org/wiki/Ranking
