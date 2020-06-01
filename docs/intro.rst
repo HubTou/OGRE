@@ -33,7 +33,7 @@ and having already decided on a playing time, to play some game, but I had more
 general things in mind.
 
 I then headed to GitHub to look for games/players lounge/lobby software. I found
-some interesting projects (for example, with focus on match making, blockchain
+some interesting projects (for example, with focus on matchmaking, blockchain
 usage or Linux OS) but none exactly fitting my purpose, with the right blend of
 simplicity and scalability.
 
@@ -43,14 +43,15 @@ So I decided to go for it myself.
 The problem I want to address
 -----------------------------
 Perhaps the first issue with multi-player games would be **finding other
-players**. In order to solve that one, you need some game platform which gathers
-players. Players will do that if it's the reference platform for their favourite
-game (ie. chess, poker, etc.) or if it has a wide enough range of games to
-choose from and players to play with.
+players**. In order to solve that one, you need some gaming platform which
+gathers players. Players will do that if it's the reference platform for their
+favourite game (ie. chess, poker, etc.) or if it has a wide enough range of
+games to choose from and players to play with.
 
-Of course there are already widely successful `game platforms`_ such as Steam_,
-or open source plaforms such as Lutris_, but apparently none focusing on casual,
-non commercial, multi-OS/hardware, homemade games using tools such as Pygame.
+Of course there are already widely successful `gaming platforms`_ such as
+Steam_, or open source plaforms such as Lutris_, but apparently none focusing on
+casual, non commercial, multi-OS/hardware, homemade games using tools such as
+Pygame.
 
 Another issue, at least for a new game platform, would be **finding players
 available for a specific game at a specific time**. If there are not enough
@@ -62,7 +63,7 @@ The gaming platform should be **accessible both through a web site and from
 inside your multi-player games**. The later would require APIs and code samples
 to bootstrap game developers.
 
-And least but not least, such a gaming platform would have to be distributed
+And last but not least, such a gaming platform would have to be distributed
 (ie. not controlled by a single person or company) and be respectful of the
 privacy of its players (ie. not collecting or abusing personal information more
 than necessary). With complex embedded software such as web, database and
@@ -74,8 +75,8 @@ distributed and even rely extensively on `social login`_ in other platforms.
 
 Perfect information... or not
 -----------------------------
-Furthermore, the game platform would have to ***enable both `perfect information
-games`_ and imperfect ones***.
+Furthermore, the game platform would have to **enable both `perfect information
+games`_ and imperfect ones**.
 
 In a perfect information game such as Connect Four or Chess, all the past and
 current state of a game is known to all the players. Thus it is possible to have
@@ -94,7 +95,7 @@ would be to ensure its innocuity to the rest of the infrastructure...
 What would not be (directly) handled by the game platform
 ---------------------------------------------------------
 Matchmaking_ and ranking_ systems would be game dependent, and thus either
-completely left out of the game platform, or provided by additional specific
+completely left out of the gaming platform, or provided by additional specific
 Server parts of these games.
 
 
@@ -106,10 +107,10 @@ Server parts of these games.
 .. _`Pygame group on Facebook`: https://www.facebook.com/groups/pygame/
 .. _`UDP Communication`: https://wiki.python.org/moin/UdpCommunication
 .. _`python-socketio`: https://python-socketio.readthedocs.io/en/latest/
-.. _`game platforms`: https://en.wikipedia.org/wiki/Category:Multiplayer_video_game_services
-.. -Steam: https://store.steampowered.com/about/
+.. _`gaming platforms`: https://en.wikipedia.org/wiki/Category:Multiplayer_video_game_services
+.. _Steam: https://store.steampowered.com/about/
 .. _Lutris: https://lutris.net/about/
 .. _`social login`: https://en.wikipedia.org/wiki/Social_login
 .. _`perfect information games`: https://en.wikipedia.org/wiki/Perfect_information
 .. _Matchmaking: https://en.wikipedia.org/wiki/Matchmaking_(video_games)
-.. -ranking: https://en.wikipedia.org/wiki/Ranking
+.. _ranking: https://en.wikipedia.org/wiki/Ranking
